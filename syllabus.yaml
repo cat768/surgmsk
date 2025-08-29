@@ -1,0 +1,296 @@
+# Surgery & MSK Syllabus (Compact YAML) — token-friendly
+
+competency_levels:
+  FULL:
+    def: "Assess/manage/perform tasks; supervised in placement"
+    examples: ["Back pain & spine mgmt", "X-ray ordering (Rule of 2s)"]
+  PARTIAL:
+    def: "Know principles; assist; supervision for complex tasks"
+    examples: ["Assist RA mgmt", "Recognise fracture complications"]
+  GENERAL:
+    def: "Recognise/discuss features; no direct mgmt"
+    examples: ["Bone tumours", "Paediatric growth deformities"]
+  CONTEXT:
+    def: "Population/system impact; no clinical detail"
+    examples: ["Global burden of MSK disease"]
+
+msk_topics:
+  - topic: "Global burden of MSK disease"
+    depth: CONTEXT
+    notes: "Epidemiology; public-health impact"
+  - topic: "Back pain & spinal disorders"
+    depth: FULL
+    notes: "Common causes; assessment; red flags; stepped mgmt"
+  - topic: "Osteoarthritis"
+    depth: FULL
+    notes: "Pathophys; assessment; conservative/surgical options"
+  - topic: "Rheumatoid arthritis (see Rheumatology)"
+    depth: PARTIAL
+    notes: "Presentation; basic mgmt; referral triggers"
+  - topic: "Common osteoporotic fractures"
+    depth: FULL
+    notes: "Patterns; acute mgmt; secondary prevention"
+  - topic: "Osteoporosis prevention (FRAX)"
+    depth: PARTIAL
+    notes: "Risk stratification; prevention counselling"
+  - topic: "Basic fracture management principles"
+    depth: FULL
+    notes: "Reduction; immobilisation; rehab; NV checks"
+  - topic: "Local fracture complications"
+    depth: FULL
+    notes: "NV injury; infection; mal/non-union"
+  - topic: "Systemic fracture complications"
+    depth: PARTIAL
+    notes: "Shock; DVT/PE; chronic pain"
+  - topic: "Osteomyelitis"
+    depth: PARTIAL
+    notes: "Dx; investigations; mgmt principles"
+  - topic: "Native septic arthritis"
+    depth: PARTIAL
+    notes: "Recognition; aspiration; abx; ortho consult"
+  - topic: "Infected joint replacements"
+    depth: PARTIAL
+    notes: "Recognition; workup; urgent referral"
+  - topic: "Bone tumours"
+    depth: GENERAL
+    notes: "Benign/malignant/metastatic; red flags; refer"
+  - topic: "Acute & chronic pain (APIC)"
+    depth: FULL
+    notes: "Multimodal analgesia; plans; escalation"
+  - topic: "Complex regional pain syndrome"
+    depth: GENERAL
+    notes: "Features; MDT approach"
+  - topic: "Fibromyalgia"
+    depth: PARTIAL
+    notes: "Dx; non-pharm & pharm options"
+  - topic: "Imaging modalities (XR/MRI/CT/US)"
+    depth: PARTIAL
+    notes: "Choose modality by indication"
+  - topic: "X-ray ordering — Rule of 2s"
+    depth: FULL
+    notes: "Two views; two joints; two sides (when relevant)"
+  - topic: "Fracture terminology"
+    depth: FULL
+    notes: "Transverse; spiral; comminuted; impacted; displaced"
+  - topic: "Specific fracture patterns"
+    depth: FULL
+    notes: "Colles; Smith; Garden hip I–IV"
+  - topic: "OA & RA imaging findings"
+    depth: FULL
+    notes: "JSN patterns; osteophytes; erosions; periarticular osteopenia"
+  - topic: "Bone tumour imaging terms"
+    depth: GENERAL
+    notes: "Onion-skin; Codman triangle; sunburst"
+  - topic: "Salter–Harris classification"
+    depth: FULL
+    notes: "Types I–V; growth implications"
+  - topic: "Perthes disease"
+    depth: GENERAL
+    notes: "Typical age/presentation; red flags"
+  - topic: "Slipped upper femoral epiphysis (SUFE)"
+    depth: FULL
+    notes: "Pain/limp; urgent mgmt principles"
+  - topic: "Developmental dysplasia of the hip (DDH)"
+    depth: GENERAL
+    notes: "Screening; Pavlik harness concept"
+  - topic: "Osgood–Schlatter disease"
+    depth: GENERAL
+    notes: "Presentation; activity modification"
+  - topic: "Paediatric growth deformities"
+    depth: GENERAL
+    notes: "Common patterns; when to refer"
+  - topic: "Cauda equina syndrome"
+    depth: FULL
+    notes: "Red flags; urgent MRI; decompression"
+  - topic: "Compartment syndrome"
+    depth: FULL
+    notes: "Dx; fasciotomy indications"
+  - topic: "Crush syndrome (rhabdomyolysis)"
+    depth: PARTIAL
+    notes: "Fluids; electrolytes"
+  - topic: "Open fractures"
+    depth: FULL
+    notes: "Debridement; abx; tetanus; soft-tissue care"
+  - topic: "Fracture healing physiology"
+    depth: PARTIAL
+    notes: "Inflammation → soft callus → hard callus → remodelling"
+  - topic: "Biomechanics"
+    depth: PARTIAL
+    notes: "Kinematics; kinetics; load concepts"
+  - topic: "Pain physiology"
+    depth: PARTIAL
+    notes: "Nociception; modulation; central sensitisation"
+  - topic: "Biostatistics in MSK research"
+    depth: GENERAL
+    notes: "Outcome measures; registries (e.g., NHFR)"
+
+surgery:
+  overview: "Peri-op care + key specialties (UGI, HPB, colorectal, vascular, breast–endocrine, plastics, urology, cardiothoracic, neurosurg, H&N) + trauma; focus on common presentations & post-op issues."
+  outcomes_competencies:
+    - "Patient-centred rapport & communication"
+    - "Focused/comprehensive history incl. risks/comorbidities"
+    - "Systematic exam (H&N; breast/axilla; skin/subcut; abdomen; groin/genitalia/perineum; limb NV incl. hands); consent; safety; hygiene"
+    - "Diagnostic synthesis; spectrum recognition"
+    - "Justified differentials; evidence-based reasoning"
+    - "Anatomy/pathophys linkage"
+    - "Risk factor identification/quantification"
+    - "Investigation selection & justification"
+    - "Result interpretation -> diagnosis"
+    - "Mgmt principles: indications, options, risks/benefits"
+    - "Outcome anticipation; prognostic factors"
+    - "Clear presentation; discuss uncertainty"
+    - "Accurate contemporaneous documentation"
+    - "Find/appraise learning resources"
+    - "Professional behaviours"
+    - "Reflective practice"
+  core_topics:
+    Essentials_of_surgical_practice:
+      - "Pre-op assessment (indications, risk)"
+      - "VTE prophylaxis"
+      - "Antibiotic prophylaxis"
+      - "Post-op mgmt (deterioration, analgesia, mobilisation, stress response, discharge)"
+      - "Sepsis & SIRS"
+      - "Nutrition/fluids/electrolytes"
+      - "Wound mgmt (drains, stomas, healing)"
+      - "Post-op bleeding"
+      - "OT safety"
+      - "Informed consent"
+    Upper_GI:
+      - "GORD"
+      - "Oesophageal dysmotility"
+      - "Oesophageal tumours (benign/malignant)"
+      - "Barrett’s oesophagus"
+      - "Gastric tumours (benign/malignant)"
+      - "Peptic ulcer disease"
+      - "Morbid obesity"
+    HPB:
+      - "Gallstone disease"
+      - "Biliary tract disease"
+      - "Pancreatitis"
+      - "Pancreatic lesions (benign/malignant)"
+      - "Liver lesions (benign/malignant)"
+      - "Cirrhosis"
+    Intestinal_Colorectal:
+      - "Small/large bowel obstruction"
+      - "IBD"
+      - "Appendicitis"
+      - "Diverticular disease"
+      - "Colorectal cancer"
+      - "Anal/perianal disorders"
+      - "Abdominal wall & groin hernias"
+      - "Bowel mucosal pathologies (benign/malignant)"
+    Breast_Endocrine:
+      - "Benign breast disease"
+      - "Malignant breast disease"
+      - "Thyroid enlargement"
+      - "Thyroid tumours (benign/malignant)"
+      - "Parathyroid lesions (benign/malignant)"
+      - "Hyperparathyroidism"
+      - "Adrenal tumours (benign/malignant)"
+    Surgical_Oncology:
+      - "Cancer growth principles & mgmt"
+      - "Cutaneous melanoma"
+      - "Soft-tissue/skin tumours (benign/malignant)"
+      - "Multidisciplinary approach"
+    Vascular:
+      - "AAA"
+      - "Acute aortic syndromes"
+      - "Chronic limb ischaemia"
+      - "Acute limb ischaemia"
+      - "Carotid artery disease"
+      - "VTE (DVT/PE)"
+      - "Venous insufficiency (varicose veins)"
+      - "Diabetic foot"
+    Head_Neck:
+      - "Salivary gland tumours; infections; inflammation"
+      - "Oropharyngeal/laryngeal tumours"
+      - "Airway obstruction"
+      - "Ear infections"
+      - "Rhinosinusitis"
+      - "Neck trauma"
+    Urology:
+      - "Renal/urinary tract tumours"
+      - "Urological infections"
+      - "Calculous disease"
+      - "Prostate carcinoma"
+      - "BPH"
+      - "Testicular tumours (scrotal masses)"
+      - "Testicular torsion"
+    Plastics:
+      - "Soft-tissue infections"
+      - "Skin lesions (benign/malignant)"
+      - "Burns injury"
+      - "Soft-tissue trauma"
+      - "Common hand problems"
+    Cardiothoracic:
+      - "Coronary artery disease"
+      - "Cardiac valvular disease"
+      - "Pneumothorax"
+      - "Lung tumours (benign/malignant)"
+      - "Chest trauma"
+      - "Thoracic infections"
+    Neurosurgery:
+      - "Raised intracranial pressure"
+      - "Hydrocephalus"
+      - "Cerebral tumours"
+      - "Traumatic brain injury"
+      - "Entrapment neuropathies"
+      - "Spinal cord lesions"
+      - "Spinal injuries"
+      - "CNS infections"
+    Trauma:
+      - "Shock"
+      - "Resuscitation"
+      - "Blood transfusion"
+      - "Chest/abdominal trauma"
+      - "Compartment syndrome (limb/abdominal)"
+      - "Head injury"
+  key_presentations:
+    Abdominal:
+      - "Upper abdo pain"
+      - "Lower abdo pain"
+      - "Periumbilical/flank pain"
+      - "Distension"
+      - "Abdo swelling/mass/lump"
+      - "PR bleeding"
+      - "Haematemesis/melaena"
+      - "Change in bowel habit"
+      - "Nausea/vomiting"
+      - "Dysphagia"
+    Liver_Biliary:
+      - "Jaundice"
+    Haematology:
+      - "Iron deficiency ± anaemia"
+      - "Coagulopathy"
+    Neck_Groin:
+      - "Neck swelling/mass/lump"
+      - "Groin/scrotal swelling/mass/lump"
+      - "Groin/scrotal pain"
+    Skin_Soft_tissue:
+      - "Skin/soft-tissue lesions"
+      - "Cellulitis"
+    Breast:
+      - "Breast swelling/mass/lump"
+      - "Mastalgia"
+      - "Nipple changes"
+      - "Nipple discharge"
+    Urology:
+      - "Haematuria"
+      - "Pneumaturia"
+      - "Bladder outlet obstruction"
+    Vascular:
+      - "Claudication/leg pain"
+      - "Limb/extremity swelling/discolouration/ulcers"
+    Respiratory_ENT:
+      - "Dyspnoea/stridor"
+      - "Chest pain"
+      - "Epistaxis"
+      - "Ear ache"
+      - "Hearing loss"
+      - "Sore throat/drooling"
+    Neurology:
+      - "Altered conscious state"
+      - "Focal neuro Sx/signs"
+    Post_op:
+      - "Post-op fever"
+      - "Post-op deterioration"
